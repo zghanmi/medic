@@ -2,11 +2,13 @@ package com.zghanmi.learn;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import com.zghanmi.learn.entity.ThemeParkRide;
 import com.zghanmi.learn.repository.ThemeParkRideRepository;
 
+@SpringBootApplication
 public class ThemeParkApplication {
 
 	public static void main(String[] args) {
